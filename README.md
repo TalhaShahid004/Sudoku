@@ -1,5 +1,5 @@
 # Sudoku
-This is a simple Suduko game made using Java. The user can linearly input numbers to solve the board. 
+This is a simple Suduko game made ufsing Java. The user can linearly input numbers to solve the board. 
 
 The program uses a 9x9 array-based board in which 0's represent empty cells. The userInput method then uses a nested loop to traverse the board and take number inputs for empty cells. 
 
