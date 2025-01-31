@@ -1,10 +1,58 @@
-# Sudoku
-This is a simple Suduko game made using Java. The user can linearly input numbers to solve the board. 
 
-The program uses a 9x9 array-based board in which 0's represent empty cells. The userInput method then uses a nested loop to traverse the board and take number inputs for empty cells. 
+<div align="center">
 
-I have added row, column, and box checker methods to verify the validity of numbers in each row, column, or box respectively. These methods return a boolean value indicating whether the sudoku puzzle is valid regarding the sudoku rules. 
+# Sudoku Game
 
-Finally, the sudokuChecker method checks the entire puzzle for validity. It also returns a boolean value. 
 
-![image](https://github.com/TalhaShahid004/Sudoku/assets/85796850/b040be35-fba6-4234-8bc0-5fce071f5fc9)
+</div>
+
+This repository contains a simple Sudoku game implemented in Java. The game allows users to input numbers to solve a 9x9 Sudoku puzzle, with built-in validation checks for row, column, and box constraints.
+
+![image](https://github.com/user-attachments/assets/005d4fe0-7d1a-40b2-972f-0d8c04ea3906)
+
+
+## Features
+
+*   **Interactive Input**: The game takes user input linearly to fill the Sudoku board.
+*   **Array-Based Board**: The Sudoku board is implemented using a 2D array, with 0's representing empty cells.
+*   **Row, Column, and Box Validation**: Includes methods to verify the validity of numbers in each row, column, and 3x3 box.
+*   **Overall Sudoku Validation**: An overall checker method to validate if the entire Sudoku puzzle is valid according to the rules.
+*   **Neat Board Printing**: Displays the board with vertical and horizontal dividers to enhance readability.
+
+
+## Installation
+
+1.  Clone the repository to your local machine:
+
+    ```bash
+    git clone https://github.com/TalhaShahid004/Sudoku.git
+    ```
+
+2.  Navigate to the cloned directory:
+
+    ```bash
+    cd Sudoku
+    ```
+
+## How to Run
+
+1.  Compile the Java source file:
+
+    ```bash
+    javac Sudoku.java
+    ```
+
+2.  Run the compiled class file:
+
+    ```bash
+    java sudoku.Sudoku
+    ```
+
+    The program will prompt you to input numbers for each empty cell on the Sudoku board sequentially.
+
+## Dependencies
+
+*   **Java Development Kit (JDK)**: Required to compile and run the Java code.
+*   **Scanner Class**: The `java.util.Scanner` class is used for user input.
+
+
